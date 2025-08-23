@@ -75,6 +75,7 @@ public:
 
 int main() {
     ShoppingCart* cart = new ShoppingCart();
+    cout << endl;
 
     cart->addProduct(new Product("Laptop", 50000));
     cart->addProduct(new Product("Mouse", 2000));
